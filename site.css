@@ -1,3 +1,24 @@
-.container{
-font-family: 'Montez', cursive;
+/*.container{
+  font-family: 'Montez', cursive;
+}*/
+
+body {
+  background-image: url("Images/background.jpeg");
+}
+
+.container {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Cherry Swash', cursive;
+	font-size: 25px;
+}
+
+h1, h2, h3 {
+  font-size: 35px;
+}
+
+.syr{
+  font-size: 20px;
 }
