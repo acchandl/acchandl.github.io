@@ -48,15 +48,16 @@
     </style>
     <title>Portfolio - Alexis Chandler</title>
 </head>
-
 <body>
     <div class="container">
-	  <div>
+      <div>
         <h1>Alexis Chandler</h1>
         <img src="../../../Images/profile-pic.jpg" alt="Profile Picture" class="img-circle" width="100" height="100">
         <h3>Software Developer</h3>
         <p>I connect the pieces!</p>
         <p>Specializing in web development, with an interest in connecting community engagement with technology.</p>
+        <br />
+        <canvas id="canvas1"></canvas>
         <br />
         <h3>Technologies</h3>
         <ul class="list-inline">
@@ -94,31 +95,33 @@
             </li>
         </ul>
     </div>
-	<br />
-	<h3>Projects</h3>
+    <br />
+    <canvas id="canvas2"></canvas>
+    <br />
+    <h3>Projects</h3>
 	    
 	<p>Coding Instruction for Cleveland UMADAOP:<a href="code216.org">Code 216</a></p>
 	<p>Currently being worked on for Cleveland UMADAOP: <a href="http://ccnrisers.org/">Community Children's Network - Community Engagement</a></p>
 	<p>Academic Final Project: <a href="http://tablesource.apphb.com/">TableSource CLE - Connecting Food Donors with Nonprofits</a></p>
 	<br />
-	 <div>
-
-        <h3>Educational Background</h3>
-
+    <div>
+    <br />
+    <canvas id="canvas3"></canvas>
+    <br />
+      <h3>Educational Background</h3>
         <p>
             We Can Code IT - Software Engineering, 2016
             <small class="text-muted">Cleveland, OH</small>
         </p>
-
         <p class="syr">
             Syracuse University - Civil Engineering Coursework, 2009-2012
             <small class="text-muted">Syracuse, NY</small>
         </p>
         <br />
-
+	<canvas id="canvas4"></canvas>
+	<br />
         <h3>Connect With Me</h3>
         <p>I can be contacted from the options listed below:</p>
-
         <ul class="list-inline">
             <li>
                 <a href="mailto:alexiscchandler@gmail.com">
@@ -135,8 +138,60 @@
                 </a>
             </li>
         </ul>
+	<canvas id="canvas5"></canvas>
        </div>
     </div>
-</body>
+	
+<!--script for moon phases-->
+<script>
+var canvas1 = document.getElementById('canvas1');
+var ctx1 = canvas1.getContext('2d');
+// Moon 1 clip
+ctx1.beginPath();
+ctx1.arc(100, 75, 25, 0, Math.PI * 2);
+ctx1.lineWidth = 2;
+ctx1.clip();
+ctx1.stroke();
 
+var canvas2 = document.getElementById('canvas2');
+var ctx2 = canvas2.getContext('2d');
+// Moon 2 clip
+ctx2.beginPath();
+ctx2.arc(100, 75, 25, 0, Math.PI * 2);
+ctx2.lineWidth = 2;
+ctx2.clip();
+ctx2.fillRect(0,0,100,75);
+ctx2.stroke();
+
+var canvas3 = document.getElementById('canvas3');
+var ctx3 = canvas3.getContext('2d');
+// Moon 3 clip
+ctx3.beginPath();
+ctx3.arc(100, 75, 25, 0, Math.PI * 2);
+ctx3.lineWidth = 2;
+ctx3.clip();
+ctx3.fillRect(75,0,100,75);
+ctx3.stroke();
+
+var canvas4 = document.getElementById('canvas4');
+var ctx4 = canvas4.getContext('2d');
+// Moon 4 clip
+ctx4.beginPath();
+ctx4.arc(100, 75, 25, 0, Math.PI * 2);
+ctx4.lineWidth = 2;
+ctx4.clip();
+ctx4.fillRect(75,0,100,75);
+ctx4.fillRect(100,75,100,75);
+ctx4.stroke();
+
+var canvas5 = document.getElementById('canvas5');
+var ctx5 = canvas5.getContext('2d');
+// Moon 5 clip
+ctx5.beginPath();
+ctx5.arc(100, 75, 25, 0, Math.PI * 2);
+ctx5.lineWidth = 2;
+ctx5.clip();
+ctx5.fill();
+</script>
+</body>
 </html>
