@@ -1,7 +1,7 @@
 # acchandl.github.io
 Portfolio Site 
 
-[Alexis Chandler](alexiscchandler.com) landing page.
+[Alexis Chandler](http://alexiscchandler.com) landing page.
 
 Credits:
   HTML
