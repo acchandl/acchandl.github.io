@@ -1,9 +1,17 @@
-/*.container{
-  font-family: 'Montez', cursive;
-}*/
+  body {
+ /* background-image: url("Images/background.jpeg"); */
+   height:100%;
+}
 
-body {
-  background-image: url("Images/background.jpeg");
+.parallax {
+  background-image: url("Images/background2.jpg");
+  /* Full height */
+    height: 100%; 
+ /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -21,4 +29,53 @@ h1, h2, h3 {
 
 .syr{
   font-size: 20px;
+}
+
+button {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#technologies-button {
+  background-color: #B5A2BA;
+  border-radius: 12px;
+  opacity: 0.8; 
+  filter: Alpha(opacity=50); /* IE8 and earlier */
+}
+
+#projects-button {
+  background-color: #776A7A;
+  border-radius: 12px;
+  opacity: 0.8; 
+  filter: Alpha(opacity=50); /* IE8 and earlier */
+}
+
+#education-button {
+  background-color: #EED5F5;
+  border-radius: 12px;
+  opacity: 0.8; 
+  filter: Alpha(opacity=50); /* IE8 and earlier */
+}
+
+#connect-button {
+  background-color: #342E36;
+  border-radius: 12px;
+  opacity: 0.8; 
+  filter: Alpha(opacity=50); /* IE8 and earlier */
+}
+
+#technologies-title, #projects-title, #education-title, #connect-title {
+  color: #F6F5F7;
+
+}
+
+
+/* Start Media Queries */
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
 }
