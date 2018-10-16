@@ -1,7 +1,6 @@
 # acchandl.github.io
-Portfolio Site 
 
-[Alexis Chandler](http://alexischandler.com) landing page.
+[Alexis Chandler](http://alexischandler.com) Portfolio Site.
 
 
 [ HTML, CSS, JavaScript, Bootstrap, Upslash photos (Photo by Lurm on Unsplash) ]
