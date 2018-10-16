@@ -118,54 +118,6 @@
         </ul>
      </div>
    </div>
-	
-<!--script for moon phases-->
-<script>
-var canvas1 = document.getElementById('pie1');
-var ctx1 = canvas1.getContext('2d');
-// Circle 1 clip
-ctx1.beginPath();
-ctx1.arc(100, 75, 25, 0, Math.PI * 2);
-ctx1.lineWidth = 2;
-ctx1.clip();
-ctx1.fill();
-var canvas2 = document.getElementById('pie2');
-var ctx2 = canvas2.getContext('2d');
-// Circle 2 clip
-ctx2.beginPath();
-ctx2.arc(100, 75, 25, 0, Math.PI * 2);
-ctx2.lineWidth = 2;
-ctx2.clip();
-ctx2.fillRect(75,0,100,75);
-ctx2.fillRect(100,75,100,75);
-ctx2.stroke();
-var canvas3 = document.getElementById('pie3');
-var ctx3 = canvas3.getContext('2d');
-// Circle 3 clip
-ctx3.beginPath();
-ctx3.arc(100, 75, 25, 0, Math.PI * 2);
-ctx3.lineWidth = 2;
-ctx3.clip();
-ctx3.fillRect(75,0,100,75);
-ctx3.stroke();
-var canvas4 = document.getElementById('pie4');
-var ctx4 = canvas4.getContext('2d');
-// Circle 4 clip
-ctx4.beginPath();
-ctx4.arc(100, 75, 25, 0, Math.PI * 2);
-ctx4.lineWidth = 2;
-ctx4.clip();
-ctx4.fillRect(0,0,100,75);
-ctx4.stroke();
-var canvas5 = document.getElementById('pie5');
-var ctx5 = canvas5.getContext('2d');
-// Circle 5 clip
-ctx5.beginPath();
-ctx5.arc(100, 75, 25, 0, Math.PI * 2);
-ctx5.lineWidth = 2;
-ctx5.clip();
-ctx5.stroke();
 
-</script>
 </body>
 </html>
