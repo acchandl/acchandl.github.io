@@ -1,18 +1,9 @@
   body {
  /* background-image: url("Images/background.jpeg"); */
+   background-image: url("Images/background2.jpg");
    height:100%;
 }
 
-.parallax {
-  background-image: url("Images/background2.jpg");
-  /* Full height */
-    height: 100%; 
- /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .container {
   width: 75%;
