@@ -5,7 +5,11 @@ Portfolio Site
 
 Credits:
   HTML
+  
   CSS
+  
   JavaScript
+  
   Bootstrap
+  
   Upslash photos (Photo by Lurm on Unsplash)
