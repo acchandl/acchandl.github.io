@@ -61,7 +61,7 @@ button {
 
 }
 
-#tech-icon{
+/* #tech-icon{
   animation-duration: 3s;
   animation-name: slidein;	
 }
@@ -76,7 +76,7 @@ button {
     margin-left: 0%;
     width: 100%;
   }
-}
+} */
 
 
 /* Start Media Queries */
