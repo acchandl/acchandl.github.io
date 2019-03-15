@@ -1,4 +1,5 @@
 # acchandl.github.io
+### version 1.0 - 2018
 
 [Alexis Chandler](http://alexischandler.com) Portfolio Site.
 
